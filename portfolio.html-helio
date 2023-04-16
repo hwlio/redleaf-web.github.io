@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Meu Portfólio Pessoal</title>
+    <style>
+      @font-face {
+        font-family: "MedievalSharp";
+        src: url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+      }
+      
+      body {
+        font-family: "MedievalSharp", serif;
+      }
+      
+      /* Outros estilos aqui */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Portfólio Pessoal</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre-mim">Sobre Mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora eveniet vero ut debitis reiciendis, ab modi quia consectetur dolore voluptas veritatis vel vitae non porro architecto minus, rem laboriosam.</p>
+      </section>
+      
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <ul>
+          <li>
+            <h3>Projeto 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nulla eligendi facilis sit ratione tempora optio. Ut totam, mollitia ratione, natus magnam tempora corrupti saepe qui iusto laboriosam voluptatibus voluptatem!</p>
+          </li>
+          <li>
+            <h3>Projeto 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos possimus aliquam, temporibus sunt mollitia odit eum laboriosam reiciendis vero fugiat harum facere non placeat! Repellendus natus nam distinctio laudantium nulla.</p>
+          </li>
+          <li>
+            <h3>Projeto 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid commodi excepturi molestias fuga suscipit nam repellat possimus placeat! Eveniet veritatis ipsam odio dolore iusto eum hic at illum aperiam quod.</p>
+          </li>
+        </ul>
+      </section>
+      
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic adipisci cum, consequuntur sapiente dolore nulla mollitia nemo ducimus non possimus obcaecati error accusantium sequi illo vero consectetur debitis placeat quisquam!</p>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Copyright © Ano</p>
+    </footer>
+  </body>
+</html>
